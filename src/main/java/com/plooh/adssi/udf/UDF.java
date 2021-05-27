@@ -1,4 +1,4 @@
-package org.plooh.udf;
+package com.plooh.adssi.udf;
 
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
@@ -215,7 +215,7 @@ public class UDF {
      * @param bits            Precision, must be a multiple of 25 bits
      * @param digestAlgorithm The cryptographic digest to use to compute the hash
      *                        value
-     * @param keyOptional     key used to create a keyed fingerprint
+     * @param key     key used to create a keyed fingerprint
      * @return The binary UDF fingerprint
      */
     public static UDF digestToUDFBinary(byte[] digest, String contentType, int bits, DigestAlgorithm digestAlgorithm,
@@ -367,7 +367,7 @@ public class UDF {
      * 
      * @param udfTypeIdentifier A randomly generated UDF string.
      * @param data              The data to convert to key form
-     * @return
+     * @return The symmetric Key
      */
     public static String symmetricKey(UdfTypeIdentifier udfTypeIdentifier, byte[] data) {
         int bits = data.length * 8;
@@ -426,7 +426,7 @@ public class UDF {
     }
 
     /**
-     * Return the key value <paramref name="data"/> in UDF form.
+     * Return the key value in UDF form.
      * 
      * @param data The data to convert to key form
      * @return the corresponding UDF string
