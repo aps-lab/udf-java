@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.plooh.adssi</groupId>
     <artifactId>udf-java</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>udf-java</name>
     <description>UDF Implementation in Java</description>
     <packaging>jar</packaging>
@@ -28,7 +28,7 @@
         <connection>scm:git:git://github.com/aps-lab/udf-java.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/aps-lab/udf-java.git</developerConnection>
         <url>https://github.com/aps-lab/udf-java</url>
-        <tag>HEAD</tag>
+        <tag>udf-java-0.0.1</tag>
     </scm>
 
     <properties>
