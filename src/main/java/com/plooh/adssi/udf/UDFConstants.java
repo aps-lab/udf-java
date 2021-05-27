@@ -1,4 +1,4 @@
-package org.plooh.udf;
+package com.plooh.adssi.udf;
 
 public class UDFConstants {
     public static final String UDFEncryption = "UDFEncryption";

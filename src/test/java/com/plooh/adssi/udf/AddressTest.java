@@ -1,4 +1,4 @@
-package org.plooh.udf;
+package com.plooh.adssi.udf;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
